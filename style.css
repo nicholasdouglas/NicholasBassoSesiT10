@@ -1,23 +1,33 @@
-.principal{
-    background-color: aqua;
+body{
+    margin: 0px;
+    padding: 0px 250px 0px 250px ;
+    overflow-x: hidden;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 2cm;
-
+    
 }
-.calculop{
 
-background-color: aqua;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 2cm;
+.principal{
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid rgb(126, 11, 34);
+    background-color:rgb(255, 212, 221);
+}
+
+.fontStyle{
+    font-family: 'Single Day', cursive;
+    font-size: 3rem;
+}
+
+.calculos{
+    border: 2px solid rgb(126, 11, 34);
+    background-color:rgb(255, 212, 221);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
-}
-
-.body{
-    text-align: center;
-
+    flex-wrap: wrap;
 }
