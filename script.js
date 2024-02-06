@@ -1,4 +1,3 @@
-alert("penis");
 function somar()
 {
     var num1  = document.getElementById("num01").valueAsNumber;
@@ -29,4 +28,12 @@ function dividir()
     var num2 =  document.getElementById("num08").valueAsNumber;
     var resultado = num1 / num2;
     document.getElementById("resultadoDiv").textContent = resultado;
+}
+
+function media()
+{
+    var num1  = document.getElementById("num09").valueAsNumber;
+    var num2 =  document.getElementById("num10").valueAsNumber;
+    var resultado = (num1 + num2) / 2;
+    document.getElementById("resultadoMed").textContent = resultado;
 }
